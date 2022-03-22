@@ -8,23 +8,7 @@ import os
 import sys
 os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
 os.system('cls' if os.name == 'nt' else 'clear')
-print('      _______ _      __________________       _______ _______ _______ _______\n'
-'     (  ___  | \     \__   __|__   __( \     (  ___  |  ____ |  ____ |  ___  )\n'
-'     | (   ) | (        ) (     ) (  | (     | (   ) | (    )| (    )| (   ) |\n'
-'     | (___) | |        | |     | |  | |     | (___) | (____)| (____)| |   | |\n'
-'     |  ___  | |        | |     | |  | |     |  ___  |  _____)     __) |   | |\n'
-'     | (   ) | |        | |     | |  | |     | (   ) | (     | (\ (  | |   | |\n'
-'     | )   ( | (____/\__) (_____) (__| (____/\ )   ( | )     | ) \ \_| (___) |\n'
-'     |/     \(_______|_______|_______(_______//     \|/      |/   \__(_______)\n')
-print ("[+] ABOUT SCRIPT:")
-print ("[-] With this script, you can getting unlimited GB on Warp+.")
-print ("[-] Version: 4.0.0")
-print ("--------")
-print ("[+] THIS SCRIPT CODDED BY ALIILAPRO") 
-print ("[-] SITE: aliilapro.github.io") 
-print ("[-] TELEGRAM: aliilapro")
-print ("--------")
-referrer = input("[#] Enter the WARP+ ID:")
+referrer = '6da32e72-8e25-442f-8ec3-c6f3244b9d68'
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
@@ -86,8 +70,6 @@ while True:
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
-		print("")
-		print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
 		print("")
 		print("[:(] Error when connecting to server.")
 		print(f"[#] Total: {g} Good {b} Bad")	
